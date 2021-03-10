@@ -1,0 +1,2 @@
+# ARG-contig_mobilome_analysis
+This pipeline performs a mobilome analyses on previously selected contigs, those harboring antimicrobial genes from ResFinder database (https://bitbucket.org/genomicepidemiology/resfinder_db/downloads/), to confirm or discard the location of such genes within plasmid or chromosomal, or even within integron or lateral gene transfer (lgt) regions. It can be adapted to other purposes (databases), according to user requeriments.
