@@ -51,3 +51,5 @@ And the following scripts are employed to obtain the integrons and lgts regions 
 <i>ruby 02.extract_integron_regions.rb</i>
 
 <i>ruby 03.extract_lgt_regions.rb</i>
+
+<i>ruby 04.bedtools_blast.rb</i>
