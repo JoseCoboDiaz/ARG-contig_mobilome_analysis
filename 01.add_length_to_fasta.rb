@@ -1,6 +1,6 @@
 
 hlen={}
-aa=File.open("contig_length.txt").each_line do |line|
+aa=File.open("contigs_length.txt").each_line do |line|
 line.chomp!
 hlen[line.split("\t")[0]]=line.split("\t")[1]
 end
