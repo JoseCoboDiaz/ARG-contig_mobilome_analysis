@@ -17,7 +17,7 @@ being contigs_ARGs.fna the input file.
 The integron_Finder (https://github.com/gem-pasteur/Integron_Finder), plasflow (https://github.com/smaegol/PlasFlow) and waafle (https://github.com/biobakery/waafle) softwares have to been installed, and they will be run on the contigs_ARGs.fna file by:
 
     source ~/Integron_Finder/bin/activate
-    integron_finder --cpu 10 contigs_ARGs.fna
+    integron_finder --cpu 1 contigs_ARGs.fna
 
     conda activate plasflow
     mkdir plasflow_contigs
