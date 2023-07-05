@@ -8,7 +8,7 @@ out1.puts "Contig\tCoordenates\tclade_A\tclade_B"
 out2.puts "Contig\tCoordenates\tclade_A\tclade_B"
 
 
-aa=File.new("waafle_contigs/contigs_ARGs.lgt.tsv").each_line do |line|
+aa=File.open("waafle_contigs/contigs_ARGs.lgt.tsv").each_line do |line|
 line.chomp!
 #7673_Egypt65_NODE_14_length_4567_cov_3.67725	lgt	4567	0.9004	0.9513	ABBB	A?B	s__Campylobacter_coli	s__Campylobacter_jejuni	g__Campylobacter	--	--	r__Root|k__Bacteria|p__Proteobacteria|c__Epsilonproteobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter|s__Campylobacter_coli	r__Root|k__Bacteria|p__Proteobacteria|c__Epsilonproteobacteria|o__Campylobacterales|f__Campylobacteraceae|g__Campylobacter|s__Campylobacter_jejuni	384:1420:+|1396:1848:+|2125:2439:+|2486:3736:+	UniRef50_W8K5B8|UniRef50_H7Z7R2|UniRef50_H7Z6K8|UniRef50_H7Y4Z6	UniRef90_W8K5B8|UniRef90_H7Z7R2|UniRef90_H7Z6K8|UniRef90_H7Z6K9
 contig=line.split("\t")[0]
